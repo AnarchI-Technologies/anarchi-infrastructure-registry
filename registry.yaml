@@ -9,7 +9,7 @@ members:
   - {id: spine-spire, repo: AnarchI-Technologies/spine-spire, status: canonical, implementation_visibility: private}
   - {id: therma-stats, repo: AnarchI-Technologies/therma-stats, status: canonical, implementation_visibility: private}
   - {id: chronicle, repo: AnarchI-Technologies/anarchi-chronicle, status: canonical, implementation_visibility: private}
-  - {id: kiln, repo: AnarchI-Technologies/anarchi-kiln, status: canonical, version: 0.1.0, implementation_visibility: private}
+  - {id: kiln, repo: AnarchI-Technologies/anarchi-kiln, status: canonical, version: 0.2.0, implementation_visibility: private}
 providers:
   - {id: render, authority: none, status: retired}
   - {id: railway, authority: none, status: paused-obsolete}

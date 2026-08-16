@@ -1,5 +1,8 @@
 schema_version: 1
 identity: {organization: AnarchI, component: Infrastructure Registry, canonical_name: anarchi-infrastructure-registry, responsibility: public infrastructure index, authority: metadata-only}
 repository: {owner: AnarchI-Technologies, name: anarchi-infrastructure-registry, visibility: public, status: canonical}
+dependencies: {none: true}
+relationships: {references: [private-infrastructure-implementations], registered_in: [AnarchI-Technologies/anarchi-ecosystem-registry]}
 boundaries: {owns: [service classification, provider status], forbids: [deployment credentials, implementation, routing]}
 generation: {canonical_input: repository anarchi.yaml manifests plus observed runtime topology, compiler: future Kiln registry compiler, bootstrap_mode: manual-verified}
+verification: {required: {discovery: true, manifest: true, topology: true, plan: false, execution: false, stress: false, integration: false}}
